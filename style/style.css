@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 40;
+}
+:root{
+    --color-primario:#F3F5FC;
+    --color-secundario:#0A3871;
+    --color-terciario:#FFFFFF;
+    --fuente-inter:"Inter", sans-serif;
+}
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+.horizontal{
+    width: 100vh;
+    display: flex;
+    align-items: stretch;
+    margin: 10%;
+    justify-content: space-between;
+    gap:82px;
+}
+.textoUsario{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--color-primario);
+    font-family: var(--fuente-inter);
+    font-size: 3rem;
+    font-weight: 400;
+    color:var(--color-secundario);
+    text-decoration: solid;
+    border: 0;
+}
+
+.container__boton{
+    width: 328px;
+    background-color: var(--color-secundario);
+    text-align: center;
+    padding: 24px 0;
+    border-radius: 24px;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-primario);
+}
+.presentacion__izquierda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.presentacion__derecha{
+    width: 400px 944px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid;
+    border-radius: 24px;
+    text-align: center;
+}
+.resultado{
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343A40;
+}
+.aclaracion{
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    color: #495057;
+}
+.advertencia{
+    display: flex;
+    font-family: var(--fuente-inter);
+    font-size: 0.75rem;
+    color: #495057;
+    text-decoration: none;
+    align-items: center;
+    gap: 18px;
+}
+.footer{
+    background-color: var(--color-secundario);
+    padding: 24px;
+    color: var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.botones{
+    display: flex;
+    gap: 24px;
+    color: var(--color-primario);
+}
+.textoUsario{
+    display: flex;
+    align-items:center;
+    background-color: var(--color-primario);
+    color: solid var(--color-secundario);
+    font-size: 3rem;
+    font-family: var(--fuente-inter);
+    text-decoration: solid;
+    border: 0;
+}

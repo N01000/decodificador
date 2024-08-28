@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="esp-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<h1 class="header"><img src="./assets/Logo.png" alt="Logo allura"></h1>
+<main class="horizontal">
+   
+        <section class="presentacion__izquierda">
+            <section class="textoUsario">
+            <h2 class="textoUsario">
+                <input class="textoUsario" type="text" id="textoUsuario" name="textoUsario" placeholder="Ingrese el texto aqui" required>
+            </h2>
+            </section>
+            <section class="advertencia__botones">
+                <a class="advertencia" href=""><img src="./assets/bi_exclamation-circle-fill.png" alt="Adverencias">
+                    Solo letras minusculas y sin acentos</a>
+                <p>
+                    <div class="botones">
+                        <button onClick ="encriptar()" class="container__boton">Encriptar</button>
+                        <button onclick="desencriptar()" class="container__boton">Desencriptar</button>
+                    </div>
+                </p>
+            </section>
+    </section>
+    <section class="presentacion__derecha">
+        <p class="aclaracion" id="aclaracion">Ingresa el texto que deseas encriptar o desencriptar</p>
+        <p1 class="resultado" id="resultado">Ningún mensaje fue encontrado </p1>
+         <div>
+            <img src="./assets/Muñeco.png" alt="Muñeco">
+        </div>
+    </section>
+    <script src="app.js" defer></script>
+</main>
+<footer class="footer">
+    <p>Desarrollado por Juan Ignacio</p>
+</footer>
+</body>
+</html>
